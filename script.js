@@ -32,11 +32,15 @@ function submitHandler(event) {
     - grab the data from the form
     - add a new review object to the reviews global variable
     - and rerender the page.
+    For bonus points clear the fields of the form.
   */
   event.preventDefault();
   const title = document.querySelector("#title").value;
   const rating = document.querySelector("#rating").value;
   const text = document.querySelector("#body").value;
+  document.querySelector("#title").value = "";
+  document.querySelector("#rating").value = "";
+  document.querySelector("#body").value = "";
   const review = {title, rating, text};
   reviews.push(review);
   render();
