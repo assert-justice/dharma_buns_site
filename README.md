@@ -3,6 +3,8 @@ In this drill you'll get some extra practice with event listeners and dom manipu
 
 I'll list the functions to implement in order. You don't have to organize the code this way to make a functional site but note how everything is broken down logically so each function is responsible for just one thing.
 
+To begin clone the project and edit it with, well, whatever you want but probably VS Code.
+
 While building your site you can check the deployed version [here](https://assert-justice.github.io/dharma_buns_site/) to see how it works in practice. You can even check the source code if you're a cheating cheater who cheats ;)
 
 ## Main
