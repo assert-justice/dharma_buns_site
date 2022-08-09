@@ -1,0 +1,62 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: saddlebrown;
+}
+
+article{
+  background-color: beige;
+  padding: 50px;
+}
+
+header{
+  background-color: rgb(0, 45, 16);
+  padding: 32px;
+  color: white;
+  padding-left: 10%;
+}
+
+img{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+li {
+  background-color: rgb(0, 45, 16);
+  color: white;
+  border-radius: 4px;
+  margin: 10px;
+  padding-left: 5px;
+  list-style: none;
+}
+
+form{
+  background-color: beige;
+  padding-left: 32px;
+  width: 40%;
+}
+
+.text-input{
+  width: 30%;
+}
+
+textarea{
+  width: 95%;
+}
