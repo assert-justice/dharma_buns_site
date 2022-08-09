@@ -25,12 +25,12 @@
     <form>
       <h2>Leave A Review</h2>
       <label for="title">Title</label></br>
-      <input class = "text-input" type="text" id="title" name="title"></br>
+      <input class = "text-input" type="text" id="title" name="title" required></br>
       <label for="rating">Rating</label></br>
-      <input type="number" id="rating" name="rating" max="5" min="1"/></br>
+      <input type="number" id="rating" name="rating" max="5" min="1" required/></br>
       <label for="title">Review</label></br>
-      <textarea id="body" name="body"></textarea></br>
-      <input type="submit" value="Submit"/>
+      <textarea id="body" name="body" required></textarea></br>
+      <input id="submit" type="submit" value="Submit"/>
     </form>
   </section>
   <script src="script.js"></script>
