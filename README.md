@@ -47,6 +47,8 @@ Each review is stored in the `reviews` array, a global variable. Each review obj
 
 Take the title, rating, and text you have extracted from the form and add them to an object. Object shorthand can make this very tidy! Then push that object to the `reviews` array. Once done you can log the `reviews` array to make sure your changes are being applied.
 
+For bonus points clear the fields of the form. You can just set the values of the fields to empty strings.
+
 The last thing that our submit handler needs to do is call the `render` function. We'll implement that next.
 
 ## Render

@@ -29,6 +29,7 @@ function submitHandler(event) {
     - grab the data from the form
     - add a new review object to the reviews global variable
     - and rerender the page.
+    For bonus points clear the fields of the form.
   */
 }
 
